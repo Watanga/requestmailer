@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @message.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @message.email %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @message.country %>
+</p>
+
+<p>
+  <b>Checkin:</b>
+  <%= @message.checkin %>
+</p>
+
+<p>
+  <b>Checkout:</b>
+  <%= @message.checkout %>
+</p>
+
+<p>
+  <b>Guests:</b>
+  <%= @message.guests %>
+</p>
+
+<p>
+  <b>Rooms:</b>
+  <%= @message.rooms %>
+</p>
+
+<p>
+  <b>Hood:</b>
+  <%= @message.hood %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @message.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_message_path(@message) %> |
+<%= link_to 'Back', messages_path %>

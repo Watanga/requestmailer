@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  country: MyString
+  checkin: 2013-03-25
+  checkout: 2013-03-25
+  guests: 1
+  rooms: 1
+  hood: MyString
+  comments: MyText
+
+two:
+  name: MyString
+  email: MyString
+  country: MyString
+  checkin: 2013-03-25
+  checkout: 2013-03-25
+  guests: 1
+  rooms: 1
+  hood: MyString
+  comments: MyText
