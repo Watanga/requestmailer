@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
 
   def request_confirmation(message)
     @message = message
-    mail to: message.email, subject: "Sorpresa!"
+    mail to: message.email, subject: "Consulta por departamento en <%= @message.hood %>"
   end
 end
