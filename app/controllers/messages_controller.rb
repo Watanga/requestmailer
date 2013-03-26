@@ -7,7 +7,7 @@ class MessagesController < ApplicationController
     @message = Message.new(params[:message])
     if @message.valid?
       UserMailer.request_confirmation(@message).deliver
-      redirect_to new_message_path, notice: "Signed up successfully."
+      redirect_to root_path
     else
       render :new
     end
