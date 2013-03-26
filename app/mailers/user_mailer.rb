@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
 
   def request_confirmation(message)
     @message = message
-    mail to: message.email, subject: "Sign Up Confirmation"
+    mail to: message.email, subject: "Sorpresa!"
   end
 end
